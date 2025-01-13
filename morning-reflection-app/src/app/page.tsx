@@ -15,14 +15,12 @@ const Home: React.FC = () => {
 
       <main className="text-center">
         <button
-          className="bg-green-500 text-white py-2 px-4 rounded-lg text-lg hover:bg-green-600 transition mb-4"
-          onClick={() => alert("Start Reflecting!")}
+          className="bg-green-500 text-white py-2 px-4 rounded-lg text-lg hover:bg-green-600 transition mb-4 mr-4"
         >
           <Link href="/prompts">Start Reflection</Link>
         </button>
         <button
           className="bg-green-500 text-white py-2 px-4 rounded-lg text-lg hover:bg-green-600 transition mb-4"
-          onClick={() => alert("See past Reflections!")}
         >
           <Link href="/past-reflections">See past Reflections</Link>
         </button>
