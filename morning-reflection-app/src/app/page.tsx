@@ -20,6 +20,12 @@ const Home: React.FC = () => {
         >
           <Link href="/prompts">Start Reflection</Link>
         </button>
+        <button
+          className="bg-green-500 text-white py-2 px-4 rounded-lg text-lg hover:bg-green-600 transition mb-4"
+          onClick={() => alert("See past Reflections!")}
+        >
+          <Link href="/past-reflections">See past Reflections</Link>
+        </button>
         <p className="text-gray-500">
           ✨ Discover daily prompts, track your gratitude, and unlock mindful growth.
         </p>
