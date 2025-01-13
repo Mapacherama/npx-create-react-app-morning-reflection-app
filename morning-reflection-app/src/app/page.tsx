@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 const Home: React.FC = () => {
@@ -17,7 +18,7 @@ const Home: React.FC = () => {
           className="bg-green-500 text-white py-2 px-4 rounded-lg text-lg hover:bg-green-600 transition mb-4"
           onClick={() => alert("Start Reflecting!")}
         >
-          Start Reflection
+          <Link href="/prompts">Start Reflection</Link>
         </button>
         <p className="text-gray-500">
           ✨ Discover daily prompts, track your gratitude, and unlock mindful growth.
